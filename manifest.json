@@ -1,0 +1,14 @@
+{
+  "name": "ShipSeq",
+  "version": "2022.6.25",
+  "description": "Net-zero your package deliveres.",
+  "manifest_version": 3,
+  "author": "Md Abid Sikder",
+  "icons" : {
+    "128" : "logo.png"
+  },
+  "action":{
+    "default_popup": "index.html",
+    "default_title": "ShipSeq"
+  }
+}
