@@ -2,16 +2,13 @@ ShipSeq
 ===
 Net-zero your package deliveries.
 
-# References
-Used 
-https://consumerecology.com/carbon-footprint-of-package-shipping-transport/
-for sourcing carbon calculations.
+# Testing Instructions
+- [ ] Clone repository
+- [ ] Go to Chrome Extensions
+- [ ] Select "Developer Mode"
+- [ ] Click "Load Unpacked" and then point Chrome to the cloned directory
+- [ ] Go to your Amazon orders, and click "Track Package" for one being shipped by Amazon
+- [ ] Click link from extension to go offset your estimated carbon usage!
 
-# Project Roadmap
-- [ ] Scan Amazon orders page and insert carbon estimate next to packages delivered by Amazon
-- [ ] Allow users to directly offset carbon estimates using web3 tokens
-  - [ ] Keep track of which orders were offset, and insert some sort of indication on the main orders page
-- [ ] Redesign logo
-- [ ] Restrict which pages extension needs permissions for, only pop up for amazon.com main order page and specific order pages, not return orders
-- [ ] Adjust based on package weight and size
-- [ ] Add links to more carbon projects
+# References
+Find the links and sources used for estimation numbers in comments at relevant locations in `script.js`.
